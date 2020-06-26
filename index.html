@@ -126,6 +126,17 @@ body:not(.singular) .site-branding img {
 		<button class="overlay-toggle  menu-toggle  menu-close" aria-expanded="false">
 			<span class="screen-reader-text">Close Primary Menu</span>
 		</button>
+		     <button class="w3-bar-item w3-button w3-hide-large"
+  onclick="w3_close()">Close &times;</button>
+    <script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
 
 		<ul id="primary-menu" class="nav-menu"><li id="menu-item-113" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-113"><a href="index.html" aria-current="page">Home</a></li>
 <li id="menu-item-319" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-319"><a href="">Videos</a></li>

@@ -2774,73 +2774,7 @@ div#infinite-handle {
 	width: 28px;
 }
 
-body div.sharedaddy,
-body #content div.sharedaddy,
-body #main div.sharedaddy {
-	clear: none;
-}
 
-body div.sharedaddy h3.sd-title {
-	margin-bottom: 26px;
-}
-
-body div.sharedaddy div.sd-content ul li {
-	position: static;
-}
-
-body div.sharedaddy div.sd-content ul li a.sd-button {
-	background-color: transparent;
-	border-color: #000000;
-	border-radius: 0;
-	box-shadow: none;
-	color: #000000 !important;
-	font-family: "Montserrat", sans-serif;
-	font-size: 14px;
-	letter-spacing: 0.117em;
-	padding: 7px 18px;
-	text-transform: uppercase;
-}
-
-body div.sharedaddy div.sd-content ul li a.sd-button span {
-	margin-left: 4px;
-}
-
-body div.sharedaddy div.sd-content ul li a.sd-button:hover {
-	background-color: #000000;
-	border-color: #000000;
-	color: #ffffff !important;
-}
-
-body div.sharedaddy div.sd-social-icon div.sd-content ul li[class*="share-"] a.sd-button {
-	background-color: transparent !important;
-	border: 1px solid #000000;
-	border-radius: 0;
-	color: #000000 !important;
-	padding: 7px !important;
-}
-
-body div.sharedaddy div.sd-social-icon div.sd-content ul li[class*="share-"] a.sd-button span:empty {
-	display: none;
-}
-
-body div.sharedaddy div.sd-social-icon div.sd-content ul li[class*="share-"] a.sd-button:hover {
-	background-color: #000000 !important;
-	border-color: #000000;
-	color: #ffffff !important;
-	opacity: 1;
-	padding: 7px !important;
-}
-
-body div.sharedaddy div.sd-social-icon div.sd-content ul li a.sd-button.share-more {
-	line-height: 18px;
-	margin-left: 0;
-	padding: 7px;
-	position: static;
-}
-
-body div.sharedaddy div.sd-social-icon div.sd-content ul li a.sd-button.share-more span {
-	display: none;
-}
 
 .entry-content .sd-content li:before {
 	content: none;
